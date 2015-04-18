@@ -1,9 +1,1 @@
 language: objective-c
-before_install:
-  - gem update cocoapods
-  - pod install
-xcode_workspace: BFPaperButton.xcworkspace
-xcode_scheme: BFPaperButton
-xcode_sdk:
-  - iphonesimulator7.0
-  - iphonesimulator7.1

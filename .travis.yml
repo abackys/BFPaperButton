@@ -1,8 +1,7 @@
 language: objective-c
 before_install:
-  - brew update
-  - brew reinstall xctool
   - gem update cocoapods
+  - pod install
 xcode_workspace: BFPaperButton.xcworkspace
 xcode_scheme: BFPaperButton
 xcode_sdk:
